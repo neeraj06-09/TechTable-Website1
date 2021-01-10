@@ -1,0 +1,123 @@
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+#intro{
+    
+    text-align: justify;
+}
+
+#skills{
+    background-color: rgba(227, 225, 241, 0.5)
+}
+li {
+    float: left;
+    display: inline;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+
+#contact{
+    background-color: rgba(227, 225, 241, 0.5)
+
+}
+
+html {
+    background: url(https://image.freepik.com/free-vector/brick-wall-realistic_1284-4683.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+#img{
+    float:inline-start;
+    margin: 0 0 0 15px; 
+}
+
+.fade-in {
+    float: left;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  /* The style below is just for the appearance of the example div */
+  
+  .style {
+    width:90vw; height:90vh;
+    text-align:center;
+    padding-top:calc(50vh - 50px);
+    margin-left:5vw;
+    border:4px double #F00;
+    background-color:#000;
+  }
+  .style p {
+    color:#fff;
+    font-size:50px;
+  }
